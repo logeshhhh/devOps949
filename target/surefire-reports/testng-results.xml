@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="7068" started-at="2021-09-27T11:14:34 IST" finished-at="2021-09-27T11:14:41 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="7068" started-at="2021-09-27T11:14:34 IST" finished-at="2021-09-27T11:14:41 IST">
+      <class name="loginTest.Comparision">
+        <test-method status="PASS" signature="checkingComparision()[pri:0, instance:loginTest.Comparision@6e6c3152]" name="checkingComparision" duration-ms="0" started-at="2021-09-27T11:14:39 IST" finished-at="2021-09-27T11:14:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkingComparision -->
+      </class> <!-- loginTest.Comparision -->
+      <class name="loginTest.AppTest">
+        <test-method status="PASS" signature="invalidDataCheck()[pri:0, instance:loginTest.AppTest@6ebc05a6]" name="invalidDataCheck" duration-ms="3" started-at="2021-09-27T11:14:39 IST" description="invalid test" finished-at="2021-09-27T11:14:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidDataCheck -->
+        <test-method status="PASS" signature="validDataCheck()[pri:0, instance:loginTest.AppTest@6ebc05a6]" name="validDataCheck" duration-ms="0" started-at="2021-09-27T11:14:39 IST" description="valid test" finished-at="2021-09-27T11:14:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validDataCheck -->
+      </class> <!-- loginTest.AppTest -->
+      <class name="loginTest.Udemy">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:loginTest.Udemy@2b552920]" name="beforeTest" is-config="true" duration-ms="1887" started-at="2021-09-27T11:14:34 IST" finished-at="2021-09-27T11:14:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="login()[pri:0, instance:loginTest.Udemy@2b552920]" name="login" duration-ms="2525" started-at="2021-09-27T11:14:36 IST" finished-at="2021-09-27T11:14:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:loginTest.Udemy@2b552920]" name="afterTest" is-config="true" duration-ms="2626" started-at="2021-09-27T11:14:39 IST" finished-at="2021-09-27T11:14:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- loginTest.Udemy -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
